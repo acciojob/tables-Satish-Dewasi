@@ -1,16 +1,50 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <title>Transaction List</title>
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
 
+<div class="container mt-5">
+    <table class="table table-hover">
+        <caption>List of all transactions</caption>
+        <thead class="thead-dark">
+            <tr>
+                <th scope="col">Date</th>
+                <th scope="col">Description</th>
+                <th scope="col">Amount</th>
+                <th scope="col">Category</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>2023-08-01</td>
+                <td>Online Shopping</td>
+                <td>$150.00</td>
+                <td>Shopping</td>
+            </tr>
+            <tr>
+                <td>2023-08-03</td>
+                <td>Restaurant Dinner</td>
+                <td>$50.00</td>
+                <td>Food</td>
+            </tr>
+            <!-- Add more transaction rows as needed -->
+        </tbody>
+        <tfoot class="thead-light">
+            <tr>
+                <td colspan="3" class="font-monospace text-end fw-bold">Total:</td>
+                <td></td>
+            </tr>
+        </tfoot>
+    </table>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
-
 </html>
